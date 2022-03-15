@@ -1,6 +1,6 @@
 # Firefly
  
-Firefly is a Flappy Bird-like 2D game project.
+Firefly is a Flappy Bird-like 2D game project.  
 Main objectives of the project:
 - Object Pooling
 - Delegates
