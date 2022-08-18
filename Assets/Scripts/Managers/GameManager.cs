@@ -101,7 +101,7 @@ namespace Managers
         {
             if (!IsContinued)
             {
-                AdManager.Show();
+                //AdManager.Show();
                 ReloadScene(true);
             }
         }

@@ -14,7 +14,7 @@ namespace Managers
 
         private void Start()
         {
-            Advertisement.Initialize(gameIDPlayStore, testMode);
+            //Advertisement.Initialize(gameIDPlayStore, testMode);
         }
         
         public static void Show()
