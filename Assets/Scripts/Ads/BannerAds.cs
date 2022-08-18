@@ -13,6 +13,7 @@ namespace Ads
 
         bool testMode = false;
 
+        /*
         IEnumerator Start() {
             Advertisement.Initialize(gameIDPlayStore, testMode);
 
@@ -22,5 +23,6 @@ namespace Ads
             Advertisement.Banner.SetPosition(BannerPosition.TOP_CENTER);
             Advertisement.Banner.Show(placementID);
         }
+        */
     }
 }
