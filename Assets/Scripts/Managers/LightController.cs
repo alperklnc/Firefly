@@ -1,12 +1,12 @@
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using Utils;
 
 namespace Managers
 {
     public class LightController : MonoBehaviour
     {
-        new Light2D light;
+        new UnityEngine.Rendering.Universal.Light2D light;
 
         float decreaseTime = 0.1f;
 
@@ -21,7 +21,7 @@ namespace Managers
 
         void Start()
         {
-            light = GetComponent<Light2D>();
+            light = GetComponent<UnityEngine.Rendering.Universal.Light2D>();
             timer = gameObject.AddComponent<Timer>();
             timer.TotalTime = decreaseTime;
             timer.RunTimer();
